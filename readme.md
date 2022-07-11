@@ -42,4 +42,22 @@ I also want to document this experience, I tend to be very forgetful. I can't re
 
 Everyday that I work on this, I'm going to document my **goal for the day, anything I got stuck on, and if I finished the goal**. If I finish the goal, then I'll iterate. I also tend to get analysis paralysis, so I'll document any of that too.
 
+Update: I've realized that I had already named the repo travel-tanzania so I suppose I've made my choice
+
+## day by day
+
+### Jul 11, 2022
+
+I [picked out](https://www.figma.com/file/Amzww2cEqJLnrUdIniNzjS/travel-tanzania?node-id=0%3A1) differnt features I liked from the inspo and so it's time to start... woo
+
+So... I didn't really set a goal... but I did the hero banner thing. I'm just doing a simple one: a background image and a title. 
+
+> Eventually I'd like to be able to do the shape masks like the Salt in our Hair blog
+
+ but that's a little out of my scope right now. 
+ 
+ --
+
+
+
 

@@ -1,0 +1,23 @@
+
+body {
+    margin: 0px;
+    background: papayawhip;
+}
+
+#hero-container { 
+    height: 100vh;
+    width: 100%;
+    background-image: url('assets/baby-elephant.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero-title {
+    font-family: droid-serif, serif;
+    font-weight: 700;
+    color: papayawhip;
+}
