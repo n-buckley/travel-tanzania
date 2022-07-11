@@ -25,8 +25,6 @@ All in all, I think the course is good (I actually really like the platform) and
 [^2]: https://scrimba.com/learn/htmlandcss/aside-align-items-co18d42cea92baec20fc830af
 
 
---
-
 # Project Goal
 
 The **final project** for this course is to make a site advertising your hometown. I don't particularly care about my hometown but I would love to travel more. I also have a bit more experience, maybe, than someone who typically completes the course and I want to challenge myself a little. 
@@ -44,4 +42,4 @@ I also want to document this experience, I tend to be very forgetful. I can't re
 
 Everyday that I work on this, I'm going to document my **goal for the day, anything I got stuck on, and if I finished the goal**. If I finish the goal, then I'll iterate. I also tend to get analysis paralysis, so I'll document any of that too.
 
---
+
