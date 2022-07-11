@@ -52,12 +52,27 @@ I [picked out](https://www.figma.com/file/Amzww2cEqJLnrUdIniNzjS/travel-tanzania
 
 So... I didn't really set a goal... but I did the hero banner thing. I'm just doing a simple one: a background image and a title. 
 
-> Eventually I'd like to be able to do the shape masks like the Salt in our Hair blog
+- [ ] Eventually I'd like to be able to do the shape masks like the Salt in our Hair blog
 
  but that's a little out of my scope right now. 
- 
- --
 
 
 
+This next section I'm not really sure what I want to put in it or how I want to arange it.
 
+I would like to have   
+- [ ] A **table of contents** since I predict this is going to be a pretty long page  
+- [ ] I want the little **interactive world map**,   
+- [ ]  **My itinerary**  
+- [ ]  Maybe like a **list of differnt regions** in TZ. 
+
+but thats a bit much for one screen I think. Oh! idea 
+
+- [ ]  The interactive would map could be a map of Tanzania seperated by region, each region could be highlighted.  
+- [ ] I think I would have to make my own SVG of tanzania + its regions (i doubt it already exists)
+
+Ok I'm trying to just get a picture of a map to look like a polaroid and I dont know how to get it so that the border proportionatly scales with the size of the map. 
+
+- [ ] look up how to make a polaroid in css?
+
+Alright I blocked out the content for the second page. 
