@@ -38,7 +38,7 @@ I'm kind of leaning towards the latter at the moment because I think it would be
 I love reading travel blogs and here are some that I like:
 [Peru - Salt in our Hair](https://www.saltinourhair.com/peru/), [Peru - A Blonde Abroad](https://www.theblondeabroad.com/ultimate-peru-travel-guide/), [Peru - Along Dusty Roads](https://www.alongdustyroads.com/peru), and [Peru - Nomadic Matt](https://www.nomadicmatt.com/travel-guides/peru-travel-tips/) (if you can't tell, I'd really like to go to Peru).
 
-I also want to document this experience, I tend to be very forgetful. I can't remeber projects I worked on for class from under a year ago -- at all. Of course, if I go back and I look at the code, I'll get flashback to working on it and the people I worked on it with, but I can't remeber specifics. When I talk about these projects, or put them on my resume, I just look silly or like I didn't do what I said I did, which isn't the case at all (very long hours on those projects let me tell you). 
+I also want to document this experience, I tend to be very forgetful. I can't remember projects I worked on for class from under a year ago -- at all. Of course, if I go back and I look at the code, I'll get flashback to working on it and the people I worked on it with, but I can't remember specifics. When I talk about these projects, or put them on my resume, I just look silly or like I didn't do what I said I did, which isn't the case at all (very long hours on those projects let me tell you). 
 
 Everyday that I work on this, I'm going to document my **goal for the day, anything I got stuck on, and if I finished the goal**. If I finish the goal, then I'll iterate. I also tend to get analysis paralysis, so I'll document any of that too.
 
@@ -80,7 +80,7 @@ Alright I blocked out the content for the second page.
 
 - [ ] Make the flex box better responsive for smaller screens. Maybe ```flex-dir: column``` if screen too small?
 
-Good lord, every time I work with flex boxes I get this problem. Theres left/right scrolling because it overflows and I never remeber how I fix it. 😑  
+Good lord, every time I work with flex boxes I get this problem. Theres left/right scrolling because it overflows and I never remember how I fix it. 😑  
 -- Oh, oops I got it I just had a weird margin somewhere.
 
 - [ ] Ew the pins are ugly. Get some icon to replace that rip
@@ -99,7 +99,7 @@ I'm actually fairly happy with how it looks right now. I mean its not the pretti
 
 Should I be linking pictures of my updates ? TBD
 
-Ok my next **goal** is literally just to type, I wish VS Code had spell check 😩 (just installed one). I remeber when I was working with react I could just type in a "data" page or something and then import but I'm not sure if this is possible with just HTML/CSS ?
+Ok my next **goal** is literally just to type, I wish VS Code had spell check 😩 (just installed one). I remember when I was working with react I could just type in a "data" page or something and then import but I'm not sure if this is possible with just HTML/CSS ?
 
 - [ ] I'd like to have my color theme be variables in case i want to change it i don't have to manually change it everywhere
 
@@ -111,7 +111,7 @@ Its technically the next day, but I haven't pushed yesterdays changes yet.
 Pictures to include (Dar)
 - [x] rooftop bar sunset picture
 - [x] city picture
-- [x] village musuem
+- [x] village museum
 - [x] ugali
 - [x] war games 1
 - [x] tuk tuk picture
@@ -121,17 +121,18 @@ Pictures to include (Dar)
 I need to commit to git more. What is standard ? I tend to only commit when I finish a page/would be ready to push...
 
 Alright todays goal is:
-> import the pictures you need for Dar (and formating) [done!]
+> import the pictures you need for Dar (and formatting) [done!]
 
-> iv decided that I want the locations to alternate alignment (Dar: lef, Z: right, A: left) and every other section on the left so fix that formatting
+> iv decided that I want the locations to alternate alignment (Dar: left, Z: right, A: left) and every other section on the left so fix that formatting 
+-- actually i lied, I don't mind them all being the same
 
 - [ ] Add a scroll to top button that directs to table of contents
 
-Pictures for zanzibar:
-- [ ]  off the ferry (flag0)
-- [ ]  of the hotel (maybe a sunset/rise picture)
-- [ ] stone town architecture
-- [ ] jozaani forest 
-- [ ] horses
-- [ ] turtles
+Pictures for Zanzibar:
+- [x]  of the hotel 
+- [x] (maybe a sunset/rise picture)
+- [x] stone town architecture
+- [x] jozani forest 
+- [x] horses
+- [x] turtles
 
