@@ -2,7 +2,23 @@
 body {
     margin: 0px;
     background: papayawhip;
+
+
+    font-family: p22-underground, sans-serif;
+    color: rgb(82, 45, 17);
 }
+
+/* div,p {
+    border: 1px solid teal;
+} */
+
+p { 
+    margin: 5px;
+    line-height: 15px;
+
+}
+
+/* Hero */
 
 #hero-container { 
     height: 100vh;
@@ -20,14 +36,100 @@ body {
     font-family: droid-serif, serif;
     font-weight: 700;
     color: papayawhip;
+    text-shadow: 0 0 10px rgb(82, 45, 17);
 }
 
-#page-container {
-    height: 100vh;
+
+
+/* Overview Page */
+
+
+#ov-left {
+    width: 65%;
+}
+
+#ov-contents {
+    width: 35%;
+    margin: 5%;
+
+}
+
+#ov-blurb-container {
+    width: 65%;
+    margin: auto 5%;
+    padding: 20px 0;;
+}
+
+#ov-itinerary {
+    width: 70%;
+    background: #B2AC88;
+    margin: auto;
+
+    padding: 10px 0;
+}
+
+#ov-right {
+    width: 35%;
+    margin: auto;
+}
+
+#ov-map {
+    width: 90%;
+    margin-left: auto;
+    margin-right: 2.5%;
+    margin-bottom: -8%;
+    position: relative;
+    z-index: -1;
+
+}
+
+#ov-regions {
+    width:50%;
+    margin-right: auto;
+    background-color: rgb(230, 217, 198);
+    border-radius:  5%;
+}
+
+ul { 
+    list-style: none;
+    padding: 0;
+
+    margin: auto;
+    width: 80%;
+}
+
+li { 
+    padding: 3%;
+    border-bottom:  2px solid papayawhip;
+}
+
+
+/* Utility Classes */
+
+.page-container {
     width: 100vw;
+    margin: 10px 0;;
 }
 
-#about-map {
-    width: 20%;
+.emphasis{
+    font-weight: 700;
+}
 
+
+.light {
+    font-weight: 300;
+}
+
+.center {
+    text-align: center;
+}
+
+.display-flex {
+    display: flex;
+    width: 100%;
+}
+
+.large-line-height {
+
+    line-height: 25px;
 }

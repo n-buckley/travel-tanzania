@@ -27,7 +27,7 @@ All in all, I think the course is good (I actually really like the platform) and
 
 # Project Goal
 
-The **final project** for this course is to make a site advertising your hometown. I don't particularly care about my hometown but I would love to travel more. I also have a bit more experience, maybe, than someone who typically completes the course and I want to challenge myself a little. 
+The **final project** for this course is to make a site advertising your hometown. I don't particularly care about my hometown but I would love to travel more. I also want to challenge myself a little. 
 
 Currently I have two ideas:
 * Make a site advertising somewhere I want to go (e.g. Peru, Colombia) and 
@@ -61,18 +61,42 @@ So... I didn't really set a goal... but I did the hero banner thing. I'm just do
 This next section I'm not really sure what I want to put in it or how I want to arange it.
 
 I would like to have   
-- [ ] A **table of contents** since I predict this is going to be a pretty long page  
+- [x] A **table of contents** since I predict this is going to be a pretty long page  
 - [ ] I want the little **interactive world map**,   
-- [ ]  **My itinerary**  
-- [ ]  Maybe like a **list of differnt regions** in TZ. 
+- [x]  **My itinerary**  
+- [x]  Maybe like a **list of differnt regions** in TZ. 
 
 but thats a bit much for one screen I think. Oh! idea 
 
-- [ ]  The interactive would map could be a map of Tanzania seperated by region, each region could be highlighted.  
+- [ ]  The interactive world map could be a map of Tanzania seperated by region, each region could be highlighted.  
 - [ ] I think I would have to make my own SVG of tanzania + its regions (i doubt it already exists)
+    - [ ] OR I dont neee to  seperate by region, just have a PIN that shows up when you hover...
 
 Ok I'm trying to just get a picture of a map to look like a polaroid and I dont know how to get it so that the border proportionatly scales with the size of the map. 
 
 - [ ] look up how to make a polaroid in css?
 
 Alright I blocked out the content for the second page. 
+
+- [ ] Make the flex box better responsive for smaller screens. Maybe ```flex-dir: column``` if screen too small?
+
+Good lord, every time I work with flex boxes I get this problem. Theres left/right srolling because it overflows and I never remeber how I fix it. 😑  Oh, oops I got it I just had a weird margin somewhere.
+
+- [ ] Ew the pins are ugly. Get some icon to replace that rip
+
+Ok... shes kinda ugly, honeslty the only thing **really** bothering me is the map. Its a bit crammed I think...
+
+- [ ] Un-cram map
+- [ ] Write the overview paragraphs ...
+- [x] learn how to put elements on top of each other? (e.g. the list of regions on top of map)  
+-- 😯 You can have ```negative margins```!! Is this the best way to do it? Ok now how do I bring to front... Ok to do **stacking** you have to use ```z-index``` and specify the ```position: relative```
+
+I'm actually fairly happy with how it looks right now. I mean its not the prettiest, but its pretty good? 
+
+- [ ] Eventually make all of the list stuff clickable anchors
+
+Should I be linking pictures of my updates ? TBD
+
+
+
+
