@@ -109,7 +109,7 @@ Ok my next **goal** is literally just to type, I wish VS Code had spell check ðŸ
 Its technically the next day, but I haven't pushed yesterdays changes yet. 
 
 Pictures to include (Dar)
-- [ ] rooftop bar sunset picture
+- [x] rooftop bar sunset picture
 - [x] city picture
 - [x] village musuem
 - [x] ugali
@@ -121,10 +121,17 @@ Pictures to include (Dar)
 I need to commit to git more. What is standard ? I tend to only commit when I finish a page/would be ready to push...
 
 Alright todays goal is:
-> import the pictures you need for Dar (and formating) 
+> import the pictures you need for Dar (and formating) [done!]
 
 > iv decided that I want the locations to alternate alignment (Dar: lef, Z: right, A: left) and every other section on the left so fix that formatting
 
 - [ ] Add a scroll to top button that directs to table of contents
 
+Pictures for zanzibar:
+- [ ]  off the ferry (flag0)
+- [ ]  of the hotel (maybe a sunset/rise picture)
+- [ ] stone town architecture
+- [ ] jozaani forest 
+- [ ] horses
+- [ ] turtles
 
