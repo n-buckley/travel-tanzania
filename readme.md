@@ -102,3 +102,16 @@ Should I be linking pictures of my updates ? TBD
 Ok my next **goal** is literally just to type, I wish VS Code had spell check 😩 (just installed one). I remeber when I was working with react I could just type in a "data" page or something and then import but I'm not sure if this is possible with just HTML/CSS ?
 
 - [ ] I'd like to have my color theme be variables in case i want to change it i don't have to manually change it everywhere
+
+- [ ] I can't figure out how to get text on the baseline for the top things to do
+- [ ] Eventually animate the cards to flip
+
+Its technically the next day, but I haven't pushed yesterdays changes yet. 
+
+Pictures to include (Dar)
+- [ ] rooftop bar sunset picture
+- [ ] city picture
+- [ ] village musuem
+- [ ] ugali
+- [ ] war games 1
+- [ ] tuk tuk picture

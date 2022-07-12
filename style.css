@@ -14,8 +14,12 @@ body {
 
 p { 
     margin: 5px;
-    line-height: 15px;
+    line-height: inherit;
 
+}
+
+h1, h2, h3 {
+    font-family: droid-serif;
 }
 
 /* Hero */
@@ -65,6 +69,8 @@ p {
     background: #B2AC88;
     margin: auto;
 
+    line-height: 15px;
+
     padding: 10px 0;
 }
 
@@ -103,6 +109,59 @@ li {
     border-bottom:  2px solid papayawhip;
 }
 
+/* Top things */
+#top-container {
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    margin:auto;
+    padding-bottom: 5vh;
+    border-bottom: 5px solid rgb(230, 217, 198);
+}
+
+.top-card {
+    background: #B2AC88;
+    width: 18%;
+    margin:auto;
+    height: 35vh;
+
+    color: papayawhip;
+    text-align: center;
+    text-shadow: 0 0 5px rgb(82, 45, 17);
+}
+
+/*Content Boxes */
+
+.content-container {
+    width: 75%;
+    margin: auto;
+
+    line-height: 25px;
+}
+
+.content-images{
+    height: 70vh;
+    justify-content: space-around;
+    object-fit: cover;
+
+}
+
+.content-vimage {
+    width: 45%;
+    object-fit: inherit;
+}
+
+.content-header {
+    width:50%;
+}
+
+
+
+.content-blog {
+    width: 75%;
+    margin-left: auto;
+    margin-top: 3%;
+}
 
 /* Utility Classes */
 
@@ -133,3 +192,12 @@ li {
 
     line-height: 25px;
 }
+
+.baseline {
+    /* idk what to do here ? */
+}
+
+.swahili {
+    color:rgb(201, 96, 16);
+}
+
