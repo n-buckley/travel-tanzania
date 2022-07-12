@@ -112,8 +112,8 @@ li {
 /* Top things */
 #top-container {
     display: flex;
-    justify-content: space-evenly;
-    width: 80%;
+    justify-content: space-between;
+    width: 90%;
     margin:auto;
     padding-bottom: 5vh;
     border-bottom: 5px solid rgb(230, 217, 198);
@@ -141,8 +141,20 @@ li {
 
 .content-images{
     height: 70vh;
-    justify-content: space-around;
+    justify-content: space-evenly;
     object-fit: cover;
+    padding-top: 10px;
+
+}
+
+.content-images-small{
+    display: flex;
+    margin: auto;
+    height: 45vh;
+    width:80%;
+    justify-content: space-evenly;
+    object-fit: cover;
+    padding: 10px;
 
 }
 

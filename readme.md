@@ -110,8 +110,21 @@ Its technically the next day, but I haven't pushed yesterdays changes yet.
 
 Pictures to include (Dar)
 - [ ] rooftop bar sunset picture
-- [ ] city picture
-- [ ] village musuem
-- [ ] ugali
-- [ ] war games 1
-- [ ] tuk tuk picture
+- [x] city picture
+- [x] village musuem
+- [x] ugali
+- [x] war games 1
+- [x] tuk tuk picture
+
+### Jul 12, 2022
+
+I need to commit to git more. What is standard ? I tend to only commit when I finish a page/would be ready to push...
+
+Alright todays goal is:
+> import the pictures you need for Dar (and formating) 
+
+> iv decided that I want the locations to alternate alignment (Dar: lef, Z: right, A: left) and every other section on the left so fix that formatting
+
+- [ ] Add a scroll to top button that directs to table of contents
+
+
