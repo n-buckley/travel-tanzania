@@ -1,11 +1,11 @@
 
-## HTML/CSS Project 
+### HTML/CSS Project 
 
 This project is inspired by Scrimba's [HTML/CSS course](https://scrimba.com/learn/htmlandcss).
 
-I already knew HTML/CSS but, besides the fact that I am constantly questioning my skills, I wanted to see if I was missing anything by not learning it "formally". I went through the whole course in about 4-5 hours including participating in some of the challeneges to test my memory and improve my typing skills. Everything covered was something I had previously used, but I did happily learn some things about [centering items](https://stackoverflow.com/questions/114543/how-to-horizontally-center-an-element/46449757#:~:text=If%20the%20element%20is%20a,element%20to%20the%20centre%20horizontally.) and flexbox. 
+I already knew HTML/CSS but, besides the fact that I am constantly questioning my skills, I wanted to see if I was missing anything by not learning it "formally". I went through the whole course in about 4-5 hours including participating in some of the challenges to test my memory and improve my typing skills. Everything covered was something I had previously used, but I did happily learn some things about [centering items](https://stackoverflow.com/questions/114543/how-to-horizontally-center-an-element/46449757#:~:text=If%20the%20element%20is%20a,element%20to%20the%20centre%20horizontally.) and flexbox. 
 
-I'd always kinda just played around with ```display: block``` and ```display:inline``` until it looked like how I wanted, but never really knew why somethings worked or didn't. I mean obviously it wasn't necessay to know, per se, since I eventually figured it out, but this will hopfully make things faster for me. 
+I'd always kinda just played around with ```display: block``` and ```display:inline``` until it looked like how I wanted, but never really knew why somethings worked or didn't. I mean obviously it wasn't necessary to know, per se, since I eventually figured it out, but this will hopefully make things faster for me. 
 
 * If you are using the ```margin:auto``` way to center things, then this assumes your item is a ```block``` type and has a fixed ```width``` [^1]
 * Now some flexbox properties [^2]
@@ -13,13 +13,13 @@ I'd always kinda just played around with ```display: block``` and ```display:inl
 ```display:flex;``` Puts items in one row. Can also be inline or block  
 ```flex-direction: column; ```Default is row. Puts all items in one column.  
 
-The below properties change based on flex-direction. If row then horizontally, vertically respectivley. Vise versa if column.  
+The below properties change based on flex-direction. If row then horizontally, vertically respectively. Vise versa if column.  
 
 ```justify-content: center; ``` Centers the item horizontally. Can also be start, end, space-between, space-around   
 ```align-items: center; ``` Aligns an item vertically. 
 						Default is stretch (will make the item take up the whole vertical space of its container). 
 
-All in all, I think the course is good (I actually really like the platform) and am definitley considering taking other courses and its **free!!**
+All in all, I think the course is good (I actually really like the platform) and am definitely considering taking other courses and its **free!!**
 
 [^1]: https://scrimba.com/learn/htmlandcss/centering-our-content-coc8f40f3ba676d118f92dd90
 [^2]: https://scrimba.com/learn/htmlandcss/aside-align-items-co18d42cea92baec20fc830af
@@ -48,7 +48,7 @@ Update: I've realized that I had already named the repo travel-tanzania so I sup
 
 ### Jul 11, 2022
 
-I [picked out](https://www.figma.com/file/Amzww2cEqJLnrUdIniNzjS/travel-tanzania?node-id=0%3A1) differnt features I liked from the inspo and so it's time to start... woo
+I [picked out](https://www.figma.com/file/Amzww2cEqJLnrUdIniNzjS/travel-tanzania?node-id=0%3A1) different features I liked from the inspo and so it's time to start... woo
 
 So... I didn't really set a goal... but I did the hero banner thing. I'm just doing a simple one: a background image and a title. 
 
@@ -58,21 +58,21 @@ So... I didn't really set a goal... but I did the hero banner thing. I'm just do
 
 
 
-This next section I'm not really sure what I want to put in it or how I want to arange it.
+This next section I'm not really sure what I want to put in it or how I want to arrange it.
 
 I would like to have   
 - [x] A **table of contents** since I predict this is going to be a pretty long page  
 - [ ] I want the little **interactive world map**,   
 - [x]  **My itinerary**  
-- [x]  Maybe like a **list of differnt regions** in TZ. 
+- [x]  Maybe like a **list of different regions** in TZ. 
 
 but thats a bit much for one screen I think. Oh! idea 
 
-- [ ]  The interactive world map could be a map of Tanzania seperated by region, each region could be highlighted.  
-- [ ] I think I would have to make my own SVG of tanzania + its regions (i doubt it already exists)
-    - [ ] OR I dont neee to  seperate by region, just have a PIN that shows up when you hover...
+- [ ]  The interactive world map could be a map of Tanzania separated by region, each region could be highlighted.  
+- [ ] I think I would have to make my own SVG of Tanzania + its regions (i doubt it already exists)
+    - [ ] OR I don't need to  separate by region, just have a PIN that shows up when you hover...
 
-Ok I'm trying to just get a picture of a map to look like a polaroid and I dont know how to get it so that the border proportionatly scales with the size of the map. 
+Ok I'm trying to just get a picture of a map to look like a polaroid and I don't know how to get it so that the border proportionally scales with the size of the map. 
 
 - [ ] look up how to make a polaroid in css?
 
@@ -80,16 +80,18 @@ Alright I blocked out the content for the second page.
 
 - [ ] Make the flex box better responsive for smaller screens. Maybe ```flex-dir: column``` if screen too small?
 
-Good lord, every time I work with flex boxes I get this problem. Theres left/right srolling because it overflows and I never remeber how I fix it. 😑  Oh, oops I got it I just had a weird margin somewhere.
+Good lord, every time I work with flex boxes I get this problem. Theres left/right scrolling because it overflows and I never remeber how I fix it. 😑  
+-- Oh, oops I got it I just had a weird margin somewhere.
 
 - [ ] Ew the pins are ugly. Get some icon to replace that rip
 
-Ok... shes kinda ugly, honeslty the only thing **really** bothering me is the map. Its a bit crammed I think...
+Ok... she's kinda ugly, honestly the only thing **really** bothering me is the map. Its a bit crammed I think...
 
 - [ ] Un-cram map
 - [ ] Write the overview paragraphs ...
 - [x] learn how to put elements on top of each other? (e.g. the list of regions on top of map)  
 -- 😯 You can have ```negative margins```!! Is this the best way to do it? Ok now how do I bring to front... Ok to do **stacking** you have to use ```z-index``` and specify the ```position: relative```
+- [x] Small irritation either Kilimanjaro shouldn't be underlined
 
 I'm actually fairly happy with how it looks right now. I mean its not the prettiest, but its pretty good? 
 
@@ -97,6 +99,6 @@ I'm actually fairly happy with how it looks right now. I mean its not the pretti
 
 Should I be linking pictures of my updates ? TBD
 
+Ok my next **goal** is literally just to type, I wish VS Code had spell check 😩 (just installed one). I remeber when I was working with react I could just type in a "data" page or something and then import but I'm not sure if this is possible with just HTML/CSS ?
 
-
-
+- [ ] I'd like to have my color theme be variables in case i want to change it i don't have to manually change it everywhere
