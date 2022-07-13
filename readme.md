@@ -239,6 +239,11 @@ What I would like:
 - [ ] just not this design think of something else
 
 - [ ] the background of the scroll thingy not to be white that's really annoying
-- [ ] To have check boxes for each item so that users can check stuff off (it wouldnt disappear just become checked)
+- [ ] To have check boxes for each item so that users can check stuff off (it wouldn't disappear just become checked)
 - [ ] Make the line height just not that
 - Also you need to write about things that you needed like more warm clothes, more pants, explain about the detergent situation
+
+
+I'm not sure if this is my impatience with Pages again, but the smooth scrolling isn't working on Safari (it is working on chrome).
+On safari you also cant see the background color or scroll feature (max-heigh i'd assume) Uh... the pins are also like gigantic (for the regions....)
+... again everything is working on chrome
