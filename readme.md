@@ -158,6 +158,13 @@ I suppose once I finish the content I can go back and spruce it up? I do have th
  Ok the safari page and chrome page look the same now, I didn't really change much or anything really. I think it was just glitching... but why aren't my pictures showing up??
 
  Another thing I've noticed is when I reload the page I can just see "Tanzania" with the shadow before the image loads... I guess is there a way to have a default background? 
- - [ ] Look up how to fix this
+ - [x] Look up how to fix this
+ -- looks like it was just a [github pages problem](https://stackoverflow.com/questions/60048977/github-pages-images-wont-load-the-server-responded-with-a-404-for-the-image) (both issues the weird css and the images loading) I guess i should have had some more patience 😬
 
  - [ ] Go back and annotate the page with emojis. Any time you had a big problem 😡 something you learned 😯. Or maybe Ill type an overview/synopsis of my experience about day by day and keep this as authentic as possible
+
+ I just looked at it on mobile... not great. Because I did most of the height sizing based on **vh** and the proportions of a window and a phone window aren't the same,,,, everything is very long.
+
+ I suppose that just means I shouldn't use vh but what should I use ?
+ 
+ Also the background image looks horrible its too zoomed in idk why that is?
