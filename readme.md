@@ -153,4 +153,11 @@ I suppose once I finish the content I can go back and spruce it up? I do have th
 
  realistically ? idk. I'm going to go eat.
 
- OMG I wanna cry what is this **MESS** I just [deployed](https://n-buckley.github.io/travel-tanzania/) it on github pages and for 1 half of my images arent showing up on google chrome and on safari the css isnt even being applied to them?? cuz theyre not scaled at all!! im literally so mad idk what to do.
+ OMG I wanna cry what is this **MESS** I just [deployed](https://n-buckley.github.io/travel-tanzania/) it on GitHub pages and for 1 half of my images aren't showing up on google chrome and on safari the css isn't even being applied to them?? cuz they're not scaled at all!! I'm literally so mad idk what to do.
+
+ Ok the safari page and chrome page look the same now, I didn't really change much or anything really. I think it was just glitching... but why aren't my pictures showing up??
+
+ Another thing I've noticed is when I reload the page I can just see "Tanzania" with the shadow before the image loads... I guess is there a way to have a default background? 
+ - [ ] Look up how to fix this
+
+ - [ ] Go back and annotate the page with emojis. Any time you had a big problem 😡 something you learned 😯. Or maybe Ill type an overview/synopsis of my experience about day by day and keep this as authentic as possible
