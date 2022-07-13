@@ -37,6 +37,28 @@ h1, h2, h3 {
     text-decoration: none;
 }
 
+/* Top Button */
+
+#top {
+
+    position: fixed; 
+    bottom: 20px; 
+    right: 30px; 
+    border: none; 
+    outline: none; 
+    color:  rgb(201, 96, 16); 
+    background-color: rgb(230, 217, 198, .3);
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; 
+    border-radius: 10px; 
+    text-decoration: none;
+  }
+  
+  #top:hover {
+    background-color: #B2AC88; /* Add a dark-grey background on hover */
+    color: papayawhip;
+  }
+
 /* Hero */
 
 #hero-container { 

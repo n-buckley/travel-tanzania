@@ -178,8 +178,9 @@ I suppose once I finish the content I can go back and spruce it up? I do have th
  - [ ] I can't figure out how to get text on the baseline for the top things to do
  - [x] add list of everything you packed?
  - [ ] Write the overview paragraphs ...
- - [ ] the about page/content (i hat writing about myself !!!)
+ - [x] the about page/content (i hat writing about myself !!!)
  - [ ] add a footer with socials and idk what else is usually in the footer?
+    - [ ] socials, copy write, sitemap, email thingy
 
  Things I dont know how to do but shouldnt be hard
  - [ ] Add a scroll to top button that directs to table of contents
@@ -261,4 +262,15 @@ padding-right: 5%;
 ```
 
 Without the padding, its just a regular circle, but once I add the padding it makes like a weird oblong/triangle shape...  I'll look into this more later
+
+I'm fine with this section, I don't really think it needs any changes but potentially add to my bio, it's kind of short. 
+
+I lied 
+- [ ] Looks silly in mobile. Maybe may flex overflow
+
+
+__Add a scroll to top button that directs to table of contents__
+
+Ok yeah that was really easy. But better practice is to use JavaScript it seems. 
+- [ ] Do the scroll to top in JavaScript
 
