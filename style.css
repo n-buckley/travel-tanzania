@@ -33,7 +33,7 @@ h1, h2, h3 {
 /* Hero */
 
 #hero-container { 
-    height: 100vh;
+    height: 60vw;
     width: 100%;
     background-image: url('assets/baby-elephant.jpg');
     background-size: cover;
@@ -123,7 +123,7 @@ li {
     justify-content: space-between;
     width: 90%;
     margin:auto;
-    padding-bottom: 5vh;
+    padding-bottom: 3vw;
     border-bottom: 5px solid rgb(230, 217, 198);
 }
 
@@ -131,7 +131,7 @@ li {
     background: #B2AC88;
     width: 18%;
     margin:auto;
-    height: 35vh;
+    height: 21vw;
 
     color: papayawhip;
     text-align: center;
@@ -145,12 +145,12 @@ li {
     margin: auto;
 
     line-height: 25px;
-    padding-top: 8vh;
+    padding-top: 4.8vw;
 
 }
 
 .content-images{
-    height: 70vh;
+    height: 42vw;
     justify-content: space-evenly;
     object-fit: cover;
 }
@@ -162,7 +162,7 @@ li {
 
     width:80%;
 
-    height: 45vh;
+    height: 27vw;
     object-fit: cover;
     padding: 10px;
 
@@ -185,7 +185,7 @@ li {
 
 .content-himage {
     width: 48%;
-    height: 35vh;
+    height: 21vw;
     object-fit: inherit;
 }
 
@@ -240,7 +240,7 @@ li {
 }
 
 .padding-top10 {
-    padding-top: 10vh;
+    padding-top: 6vw;
 }
 
 /* Goodreads Widget Style */
