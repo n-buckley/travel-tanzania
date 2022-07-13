@@ -75,6 +75,7 @@ but thats a bit much for one screen I think. Oh! idea
 Ok I'm trying to just get a picture of a map to look like a polaroid and I don't know how to get it so that the border proportionally scales with the size of the map. 
 
 - [ ] look up how to make a polaroid in css?
+-- I actually decided I dont want to do thi
 
 Alright I blocked out the content for the second page. 
 
@@ -87,7 +88,7 @@ Good lord, every time I work with flex boxes I get this problem. Theres left/rig
 
 Ok... she's kinda ugly, honestly the only thing **really** bothering me is the map. Its a bit crammed I think...
 
-- [ ] Un-cram map
+- [x] Un-cram map
 - [ ] Write the overview paragraphs ...
 - [x] learn how to put elements on top of each other? (e.g. the list of regions on top of map)  
 -- 😯 You can have ```negative margins```!! Is this the best way to do it? Ok now how do I bring to front... Ok to do **stacking** you have to use ```z-index``` and specify the ```position: relative```
@@ -165,8 +166,37 @@ I suppose once I finish the content I can go back and spruce it up? I do have th
 
  I just looked at it on mobile... not great. Because I did most of the height sizing based on **vh** and the proportions of a window and a phone window aren't the same,,,, everything is very long.
 
- I suppose that just means I shouldn't use vh but what should I use ? I'm going to try converting all the vh to vw (and change the sizing) Ok changing it to vw made it more proportional, I do want the hero page to take up the whole front page tho so Ill change that back to vh. But I still dont love it idk if its the spacing or what? maybe the padding should also still be vh?
+ I suppose that just means I shouldn't use vh but what should I use ? I'm going to try converting all the vh to vw (and change the sizing) Ok changing it to vw made it more proportional, I do want the hero page to take up the whole front page tho so Ill change that back to vh. But I still don't love it idk if its the spacing or what? maybe the padding should also still be vh?
  
  Also the background image looks horrible its too zoomed in idk why that is? (on mobile).
 
- 
+ ### Jul 12, 2022
+
+ Collection of easy tasks from above
+ - [ ] Eventually make all of the list stuff clickable anchors
+ - [ ] Ew the pins are ugly. Get some icon to replace that rip
+ - [ ] I can't figure out how to get text on the baseline for the top things to do
+ - [ ] add list of everything you packed?
+ - [ ] Write the overview paragraphs ...
+ - [ ] the about page/content (i hat writing about myself !!!)
+ - [ ] add a footer with socials and idk what else is usually in the footer?
+
+ Things I dont know how to do but shouldnt be hard
+ - [ ] Add a scroll to top button that directs to table of contents
+ - [ ] Eventually animate the cards to flip
+ - [ ] add carousel for each region of cool places
+ - [ ] I'd like to have my color theme be variables in case i want to change it i don't have to manually change it everywhere 
+
+ Things that I feel like are going to be hard
+ - [ ] Eventually I'd like to be able to do the shape masks like the Salt in our Hair blog
+ - [ ] I want the little **interactive world map**,
+    - [ ]  The interactive world map could be a map of Tanzania separated by region, each region could be highlighted.  
+    - [ ] I think I would have to make my own SVG of Tanzania + its regions (i doubt it already exists)
+        - [ ] OR I don't need to  separate by region, just have a PIN that shows up when you hover...
+ - [ ] a cute like animated backpack would be adorable like you hover and it shows what I packed
+
+Mobile stuff (hard?)
+- [ ] Make the flex box better responsive for smaller screens. Maybe ```flex-dir: column``` if screen too small?
+
+
+I'm going to do this at the beginning of every day (make a collection of all the things I want to do)
