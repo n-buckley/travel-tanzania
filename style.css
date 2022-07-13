@@ -14,9 +14,9 @@ body {
 }
 
 
-/* div,p {
+div,p,img,li,a {
     border: 1px solid teal;
-} */
+}
 
 p { 
     margin: 5px;
@@ -115,6 +115,20 @@ h1, h2, h3 {
     border-radius:  5%;
 
     text-decoration: none;
+
+
+    vertical-align: baseline;
+}
+
+.ov-pins {
+    height: 16px;
+    display: inline-block;
+    margin: auto;
+    vertical-align: baseline;
+}
+
+.ov-pins:hover {
+    fill: darkolivegreen;
 }
 
 ul { 
@@ -133,6 +147,10 @@ li {
 
 li a {
     text-decoration: inherit;
+}
+
+li a:hover {
+    filter: olive;
 }
 
 /* Top things */

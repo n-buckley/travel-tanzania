@@ -173,8 +173,8 @@ I suppose once I finish the content I can go back and spruce it up? I do have th
  ### Jul 12, 2022
 
  Collection of easy tasks from above
- - [ ] Eventually make all of the list stuff clickable anchors
- - [ ] Ew the pins are ugly. Get some icon to replace that rip
+ - [x] Eventually make all of the list stuff clickable anchors
+ - [x] Ew the pins are ugly. Get some icon to replace that rip
  - [ ] I can't figure out how to get text on the baseline for the top things to do
  - [ ] add list of everything you packed?
  - [ ] Write the overview paragraphs ...
@@ -208,6 +208,19 @@ I knew how to make the anchors so that was easy. But it wasn't scrolling to wher
 I wanted the titles of the places, when scrolled to, to be near the bottom of the screen because I wanted the whole picture to be visible.  
 -- To offset that you need to change ```* {scoll-padding-top: x}``` so I was playing around with it but there was no happy medium between what I wanted for the locations versus the other headers. 
 -- I changed the anchor to the images with just a little bit of scroll-padding and that achieves the same kind of result that I wanted. 
+-- There are different ways to do it [it seems] (https://getpublii.com/blog/one-line-css-solution-to-prevent-anchor-links-from-scrolling-behind-a-sticky-header.html)
 
 I also didn't like the harsh scroll
 -- this was fixed by ```* {scoll-behavior:smooth}``` automatically, it just does a harsh jump.
+
+__Task: Ew the pins are ugly. Get some icon to replace that rip__
+
+Ok so I found an svg icon online thats nice enough.
+
+- [ ] I cant get the pins on the baseline of the link
+- [ ] id like for the svg to also change color when the anchor is hovered over
+
+This is my second time not being able to find a baseline solution, so I'm going to move on.
+
+
+
