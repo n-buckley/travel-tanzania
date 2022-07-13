@@ -183,7 +183,7 @@ I suppose once I finish the content I can go back and spruce it up? I do have th
     - [ ] socials, copy write, sitemap, email thingy
 
  Things I dont know how to do but shouldnt be hard
- - [ ] Add a scroll to top button that directs to table of contents
+ - [x] Add a scroll to top button that directs to table of contents
  - [ ] Eventually animate the cards to flip
  - [ ] add carousel for each region of cool places
  - [ ] I'd like to have my color theme be variables in case i want to change it i don't have to manually change it everywhere 
@@ -273,4 +273,40 @@ __Add a scroll to top button that directs to table of contents__
 
 Ok yeah that was really easy. But better practice is to use JavaScript it seems. 
 - [ ] Do the scroll to top in JavaScript
+
+
+__Top things: animate the cards to flip__
+
+Ok I need to get the pictures for each 
+
+and write some text for when they flip ...
+
+
+I've realized I'm just kind of hacking at this when looking it up would be easier...
+
+I was trying to get the image for the cards behind the text, but ```z-index``` wasn't working by itself... So I ended up doing 
+negative margins again. I don't know if this is best practice ? sigh
+
+To do the cards I'm assuming there needs to be a hover property and there needs to be content _directly_ behind. So 
+thats going to be another layering challenge if I do it the way I did before?
+
+I ended up just [looking it up](https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_flip_card) even though I could have tried for a while that was definitely easier and faster.
+Also it didn't involve any layering. 
+
+Theres **4 divs** that need styling to get the card to flip :
+
+The entire container for the whole card ```.flip-container```
+Here you need to set the size for the card (so I just pasted what was previously my card container) but you also need ```perspective: 1000px;```
+this animates the flip in 3d. It makes the card "stick out" like its an actual card flipping. Otherwise It kind of just rotates to the back) At small values it's really funny the card like sticks out of the screen (also takes longer to flip).
+
+Then you need a div that contains the content for the front and back ```.flip-card``` which has two important things. 
+```transition: transform 0.8s;``` which extends the time for the flip otherwise would just immediately flip to the back of the card  
+```transform-style: preserve-3d;``` This actually flips to your back content. Otherwise it would just flip your front content by 180
+
+Then theres a 180 flip on hover. And an important property is for the front/back content divs `backface-visibility: hidden;` which hides whatever the back for the card is and `position: absolute` or the cards would be stacked on each other like normal html. Other styling doesn't really matter
+
+- [ ] I still need to write the back content but I dont want to rn
+
+I'm tiring/getting burnt out with this project. Maybe its because i have no self regulation and I spent 10 hours on VS Code yesterday.
+-
 
