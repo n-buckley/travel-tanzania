@@ -136,3 +136,9 @@ Pictures for Zanzibar:
 - [x] horses
 - [x] turtles
 
+Time for Arusha + National Parks Content. Writing takes so long ;-; and I need to go back and edit because i'm sure some things are wrong. 
+
+At this point this has become more of a writing challenge than an HTML/CSS challenge...
+-
+
+I suppose once I finish the content I can go back and spruce it up? I do have things marked that I want to do... We'll see
