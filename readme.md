@@ -152,3 +152,5 @@ I suppose once I finish the content I can go back and spruce it up? I do have th
  Next goal? Check off all the things I haven't done yet ! Lol ok 
 
  realistically ? idk. I'm going to go eat.
+
+ OMG I wanna cry what is this **MESS** I just [deployed](https://n-buckley.github.io/travel-tanzania/) it on github pages and for 1 half of my images arent showing up on google chrome and on safari the css isnt even being applied to them?? cuz theyre not scaled at all!! im literally so mad idk what to do.
