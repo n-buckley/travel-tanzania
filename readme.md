@@ -176,7 +176,7 @@ I suppose once I finish the content I can go back and spruce it up? I do have th
  - [x] Eventually make all of the list stuff clickable anchors
  - [x] Ew the pins are ugly. Get some icon to replace that rip
  - [ ] I can't figure out how to get text on the baseline for the top things to do
- - [ ] add list of everything you packed?
+ - [x] add list of everything you packed?
  - [ ] Write the overview paragraphs ...
  - [ ] the about page/content (i hat writing about myself !!!)
  - [ ] add a footer with socials and idk what else is usually in the footer?
@@ -247,3 +247,18 @@ What I would like:
 I'm not sure if this is my impatience with Pages again, but the smooth scrolling isn't working on Safari (it is working on chrome).
 On safari you also cant see the background color or scroll feature (max-heigh i'd assume) Uh... the pins are also like gigantic (for the regions....)
 ... again everything is working on chrome
+
+
+__Task: the about page/content (i hat writing about myself !!!)__
+
+
+Omg I discovered something :
+```css 
+width: 20%;
+height: 20%;
+border-radius: 50%;
+padding-right: 5%;
+```
+
+Without the padding, its just a regular circle, but once I add the padding it makes like a weird oblong/triangle shape...  I'll look into this more later
+

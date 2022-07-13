@@ -244,7 +244,9 @@ li a {
 .pack-card {
     display: block;
     width: 20vw;
-    max-height: 29vw;
+    max-width: 20vw;
+
+    max-height: 25vw;
 
     background-color: rgb(230, 217, 198);
     border-radius: 1vw;
@@ -254,9 +256,24 @@ li a {
 
 .overflow-scroll {
     overflow-y: scroll;
-    max-height: 25vw;
+    max-height: 20vw;
     padding: 0;
-    line-height: revert;
+}
+
+/* About Me */
+
+#about-container { 
+    display: flex;
+    width: 80%;
+    align-items: center;
+    margin: auto;
+}
+
+#avatar {
+    width: 10vw;
+    height: 10vw;
+    border-radius: 50%;
+    margin-right: 5%;
 }
 
 
@@ -308,10 +325,10 @@ li a {
 
     .gr_custom_container_1657676271 {
     /* customize your Goodreads widget container here*/
-    padding: 10px 5px 10px 5px;
+    padding: 10px 0 10px 3vw;
     background-color: transparent;
     color: #522d11;
-    width: 200px
+    width: 200px;
     }
     .gr_custom_header_1657676271 {
     /* customize your Goodreads header here*/
@@ -332,9 +349,9 @@ li a {
     /* customize your book covers here */
     overflow: hidden;
     height: 60px;
-        float: left;
-        margin-right: 4px;
-        width: 39px;
+    float: left;
+    margin-right: 4px;
+    width: 39px;
     }
     .gr_custom_author_1657676271 {
     /* customize your author names here */
