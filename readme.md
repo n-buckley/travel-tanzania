@@ -200,3 +200,14 @@ Mobile stuff (hard?)
 
 
 I'm going to do this at the beginning of every day (make a collection of all the things I want to do)
+
+__Task: Eventually make all of the list stuff clickable anchors__
+
+I knew how to make the anchors so that was easy. But it wasn't scrolling to where I wanted it to. 
+
+I wanted the titles of the places, when scrolled to, to be near the bottom of the screen because I wanted the whole picture to be visible.  
+-- To offset that you need to change ```* {scoll-padding-top: x}``` so I was playing around with it but there was no happy medium between what I wanted for the locations versus the other headers. 
+-- I changed the anchor to the images with just a little bit of scroll-padding and that achieves the same kind of result that I wanted. 
+
+I also didn't like the harsh scroll
+-- this was fixed by ```* {scoll-behavior:smooth}``` automatically, it just does a harsh jump.

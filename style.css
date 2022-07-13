@@ -1,12 +1,18 @@
+* {
+    scroll-behavior: smooth;
+    scroll-padding-top: 5%;
+}
+
+
 
 body {
     margin: 0px;
     background: papayawhip;
 
-
     font-family: p22-underground, sans-serif;
     color: rgb(82, 45, 17);
 }
+
 
 /* div,p {
     border: 1px solid teal;
@@ -14,7 +20,7 @@ body {
 
 p { 
     margin: 5px;
-    line-height: inherit;
+    line-height: unset;
 
 }
 
@@ -28,6 +34,7 @@ a:hover {
 
 h1, h2, h3 {
     font-family: droid-serif;
+    text-decoration: none;
 }
 
 /* Hero */
@@ -64,7 +71,10 @@ h1, h2, h3 {
 #ov-contents {
     width: 35%;
     margin: 5%;
+}
 
+#ov-contents ul {
+    text-decoration: underline;
 }
 
 #ov-blurb-container {
@@ -103,6 +113,8 @@ h1, h2, h3 {
     margin-right: auto;
     background-color: rgb(230, 217, 198);
     border-radius:  5%;
+
+    text-decoration: none;
 }
 
 ul { 
@@ -116,6 +128,11 @@ ul {
 li { 
     padding: 3%;
     border-bottom:  2px solid papayawhip;
+    
+}
+
+li a {
+    text-decoration: inherit;
 }
 
 /* Top things */
