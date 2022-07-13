@@ -165,6 +165,6 @@ I suppose once I finish the content I can go back and spruce it up? I do have th
 
  I just looked at it on mobile... not great. Because I did most of the height sizing based on **vh** and the proportions of a window and a phone window aren't the same,,,, everything is very long.
 
- I suppose that just means I shouldn't use vh but what should I use ? I'm going to try converting all the vh to vw (and change the sizing)
+ I suppose that just means I shouldn't use vh but what should I use ? I'm going to try converting all the vh to vw (and change the sizing) Ok changing it to vw made it more proportional, I do want the hero page to take up the whole front page tho so Ill change that back to vh. But I still dont love it idk if its the spacing or what? maybe the padding should also still be vh?
  
  Also the background image looks horrible its too zoomed in idk why that is?
