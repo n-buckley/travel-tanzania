@@ -201,6 +201,7 @@ Mobile stuff (hard?)
 
 I'm going to do this at the beginning of every day (make a collection of all the things I want to do)
 
+
 __Task: Eventually make all of the list stuff clickable anchors__
 
 I knew how to make the anchors so that was easy. But it wasn't scrolling to where I wanted it to. 
@@ -213,6 +214,7 @@ I wanted the titles of the places, when scrolled to, to be near the bottom of th
 I also didn't like the harsh scroll
 -- this was fixed by ```* {scoll-behavior:smooth}``` automatically, it just does a harsh jump.
 
+
 __Task: Ew the pins are ugly. Get some icon to replace that rip__
 
 Ok so I found an svg icon online thats nice enough.
@@ -220,7 +222,23 @@ Ok so I found an svg icon online thats nice enough.
 - [ ] I cant get the pins on the baseline of the link
 - [ ] id like for the svg to also change color when the anchor is hovered over
 
-This is my second time not being able to find a baseline solution, so I'm going to move on.
+This is my second time not being able to find a baseline solution, so I'm going to move on.  
 
 
+__Task: add list of everything you packed?__
 
+I'm not really sure how I want to do this, so I'm just going to do it and see what happens.
+
+Ok my computer's going to die but I just made lists of several categories. 
+
+When I realized they were too big I wanted to limit the size of the containers so just made it a fixed height. That looked silly for the really small boxes so I found something called ```max-height: x;```
+
+I don't love this solutions, it's just kind of basic, but at least the information is there
+
+What I would like:
+- [ ] just not this design think of something else
+
+- [ ] the background of the scroll thingy not to be white that's really annoying
+- [ ] To have check boxes for each item so that users can check stuff off (it wouldnt disappear just become checked)
+- [ ] Make the line height just not that
+- Also you need to write about things that you needed like more warm clothes, more pants, explain about the detergent situation

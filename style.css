@@ -14,9 +14,9 @@ body {
 }
 
 
-div,p,img,li,a {
+/* div,p,img,li,a {
     border: 1px solid teal;
-}
+} */
 
 p { 
     margin: 5px;
@@ -149,10 +149,6 @@ li a {
     text-decoration: inherit;
 }
 
-li a:hover {
-    filter: olive;
-}
-
 /* Top things */
 #top-container {
     display: flex;
@@ -237,6 +233,33 @@ li a:hover {
     margin-top: 3%;
 }
 
+/* What to Bring */
+
+#packing {
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.pack-card {
+    display: block;
+    width: 20vw;
+    max-height: 29vw;
+
+    background-color: rgb(230, 217, 198);
+    border-radius: 1vw;
+    padding: 0.5vw;
+    margin: 1vw;
+}
+
+.overflow-scroll {
+    overflow-y: scroll;
+    max-height: 25vw;
+    padding: 0;
+    line-height: revert;
+}
+
+
 /* Utility Classes */
 
 .page-container {
@@ -278,6 +301,8 @@ li a:hover {
 .padding-top10 {
     padding-top: 6vw;
 }
+
+
 
 /* Goodreads Widget Style */
 
