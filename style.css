@@ -333,7 +333,7 @@ li a {
 
 #about-container { 
     display: flex;
-    width: 80%;
+    width: 90%;
     align-items: center;
     margin: auto;
 }
@@ -343,6 +343,61 @@ li a {
     height: 10vw;
     border-radius: 50%;
     margin-right: 5%;
+}
+
+
+/* more places to go */
+
+.mini-images {
+    flex-wrap: wrap;
+
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 2vw
+    
+}
+
+.mini-image {
+    width: 17vh;
+    height: 20vh;
+    object-fit: cover;
+    padding: 0.25vh;
+    
+}
+
+.tooltip {
+    position: relative;
+}
+
+.tooltip .tooltip-text {
+    visibility: hidden;
+    width: 150%;
+    background-color: rgb(230, 217, 198);
+    padding: 5px 0;
+    border-radius: 6px;
+    
+    position: absolute;
+    left: -25%;
+    z-index: 1;
+}
+
+.tooltip:hover .tooltip-text {
+    visibility: visible;
+}
+
+.tooltip .tooltip-text::after {
+    content: " ";
+    position: absolute;
+    left: 50%;
+    bottom: 100%; 
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent rgb(230, 217, 198) transparent;
+  }
+
+.tooltip-text{
+
 }
 
 

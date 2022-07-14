@@ -170,7 +170,7 @@ I suppose once I finish the content I can go back and spruce it up? I do have th
  
  Also the background image looks horrible its too zoomed in idk why that is? (on mobile).
 
- ### Jul 12, 2022
+ ### Jul 13, 2022
 
  Collection of easy tasks from above
  - [x] Eventually make all of the list stuff clickable anchors
@@ -184,7 +184,7 @@ I suppose once I finish the content I can go back and spruce it up? I do have th
 
  Things I dont know how to do but shouldnt be hard
  - [x] Add a scroll to top button that directs to table of contents
- - [ ] Eventually animate the cards to flip
+ - [x] Eventually animate the cards to flip
  - [ ] add carousel for each region of cool places
  - [ ] I'd like to have my color theme be variables in case i want to change it i don't have to manually change it everywhere 
 
@@ -203,6 +203,8 @@ Mobile stuff (hard?)
 I'm going to do this at the beginning of every day (make a collection of all the things I want to do)
 
 
+<br>
+
 __Task: Eventually make all of the list stuff clickable anchors__
 
 I knew how to make the anchors so that was easy. But it wasn't scrolling to where I wanted it to. 
@@ -215,6 +217,8 @@ I wanted the titles of the places, when scrolled to, to be near the bottom of th
 I also didn't like the harsh scroll
 -- this was fixed by ```* {scoll-behavior:smooth}``` automatically, it just does a harsh jump.
 
+
+<br>
 
 __Task: Ew the pins are ugly. Get some icon to replace that rip__
 
@@ -249,6 +253,7 @@ I'm not sure if this is my impatience with Pages again, but the smooth scrolling
 On safari you also cant see the background color or scroll feature (max-heigh i'd assume) Uh... the pins are also like gigantic (for the regions....)
 ... again everything is working on chrome
 
+<br>
 
 __Task: the about page/content (i hat writing about myself !!!)__
 
@@ -268,14 +273,15 @@ I'm fine with this section, I don't really think it needs any changes but potent
 I lied 
 - [ ] Looks silly in mobile. Maybe may flex overflow
 
-
+<br>
 __Add a scroll to top button that directs to table of contents__
 
 Ok yeah that was really easy. But better practice is to use JavaScript it seems. 
-- [ ] Do the scroll to top in JavaScript
+- [ ] Do the scroll to top in JavaScript  
 
+<br>
 
-__Top things: animate the cards to flip__
+__Task: (top things) animate the cards to flip__
 
 Ok I need to get the pictures for each 
 
@@ -308,5 +314,33 @@ Then theres a 180 flip on hover. And an important property is for the front/back
 - [ ] I still need to write the back content but I dont want to rn
 
 I'm tiring/getting burnt out with this project. Maybe its because i have no self regulation and I spent 10 hours on VS Code yesterday.
--
+
+<br>
+
+**Task: add carousel for each region of cool places**
+
+You know waht I started looking up how to do this and I found something a solution, but now that I think about it, I have about 20 places meant to be in one carosel ... 
+
+i feel like thats not really practical for a user to shuffle through all of them. 
+
+Ok. I thought of something, what if I do something like 'your books' in book reads where theres lots of tiny images and then you can hover over an image to see the title and maybe a very mini descripton... Yeah im going to roll with that.
+
+_Task: Mini images with hover description_
+
+Ok hm, I can store the description sin the title as a hack and it would automatically show it to me when I hovers. That would definitley be the easiest way. 
+
+Ok.. Yeha im just gping to do that a lot of the solutoins I see make the text replace the image (kind of like the flip cards above, but I want it to hover off to the side (kind of like goodreads does with book covers, if not exactly) which is pretty much what the title/tooltip does 
+
+Actually I can just make a [tooltip class] (https://www.w3schools.com/css/css_tooltip.asp) instead of using title. This will aslo alow me to add more text.
+
+- [ ] Oh! I remeber now I wanted to be able to show a map where you could hover over all of the spots !! 
+
+For now this is ok
+
+Alright that was a lot of content 
+
+- [ ] change the REALLy long links for something shorter
+
+
+
 
