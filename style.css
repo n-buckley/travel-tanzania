@@ -174,7 +174,7 @@ li a {
 /* Top things */
 #top-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     width: 90%;
     margin:auto;
     padding-bottom: 3vw;
@@ -237,7 +237,7 @@ li a {
     color:rgb(82, 45, 17);
     font-weight:  300;
     text-shadow: none;
-    font-size: 1vw;
+    font-size: 1.05vw;
 
     margin: auto;
 

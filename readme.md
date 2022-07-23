@@ -352,10 +352,10 @@ Collection of easy tasks from above
 - [x] I still need to write the back card content but I don't want to rn
 - [ ] change the REALLy long links for something shorter
 - [x] Also you need to write about things that you needed like more warm clothes, more pants, explain about the detergent situation
-- [ ] add a favicon :)
+- [x] add a favicon :)
 
  Things I don't know how to do but shouldn't be hard
- - [ ] I'd like to have my color theme be variables in case i want to change it i don't have to manually change it everywhere 
+- [ ] I'd like to have my color theme be variables in case i want to change it i don't have to manually change it everywhere 
 - [ ] To have check boxes for each item so that users can check stuff off (it wouldn't disappear just become checked)
 - [ ] id like for the svg to also change color when the anchor is hovered over
 - [ ] a lot of the % sized things, like the flip cards and the list of items to bring don't scale well 
