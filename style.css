@@ -11,6 +11,7 @@ body {
 
     font-family: p22-underground, sans-serif;
     color: rgb(82, 45, 17);
+    font-size: inherit;
 }
 
 
@@ -231,11 +232,14 @@ li a {
 .flip-card-back {
     background-color: #B2AC88;
     transform: rotateY(180deg);
+    min-height: fit-content;
 
     color:rgb(82, 45, 17);
     font-weight:  300;
     text-shadow: none;
-    font-size: 16px;
+    font-size: 1vw;
+
+    margin: auto;
 
 }
 

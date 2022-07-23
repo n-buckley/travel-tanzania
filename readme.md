@@ -243,10 +243,9 @@ I don't love this solutions, it's just kind of basic, but at least the informati
 What I would like:
 - [ ] just not this design think of something else
 
-- [ ] the background of the scroll thingy not to be white that's really annoying
+- [x] the background of the scroll thingy not to be white that's really annoying
 - [ ] To have check boxes for each item so that users can check stuff off (it wouldn't disappear just become checked)
-- [ ] Make the line height just not that
-- Also you need to write about things that you needed like more warm clothes, more pants, explain about the detergent situation
+- [ ] Also you need to write about things that you needed like more warm clothes, more pants, explain about the detergent situation
 
 
 I'm not sure if this is my impatience with Pages again, but the smooth scrolling isn't working on Safari (it is working on chrome).
@@ -270,8 +269,6 @@ Without the padding, its just a regular circle, but once I add the padding it ma
 
 I'm fine with this section, I don't really think it needs any changes but potentially add to my bio, it's kind of short. 
 
-I lied 
-- [ ] Looks silly in mobile. Maybe may flex overflow
 
 <br>
 __Add a scroll to top button that directs to table of contents__
@@ -341,6 +338,42 @@ Alright that was a lot of content
 
 - [ ] change the REALLy long links for something shorter
 
+<br>
 
+### Jul 22, 2022
 
+I took a break for a little bit I wasnt really feeling great this past week (I can't believe its been a week)
 
+Collection of easy tasks from above
+ - [ ] I can't figure out how to get text on the baseline for the top things to do
+ - [x] Write the overview paragraphs ...]
+ - [ ] add a footer with socials and idk what else is usually in the footer?
+    - [ ] socials, copy write, sitemap, email thingy
+- [x] I still need to write the back card content but I dont want to rn
+- [ ] change the REALLy long links for something shorter
+- [x] Also you need to write about things that you needed like more warm clothes, more pants, explain about the detergent situation
+
+ Things I dont know how to do but shouldnt be hard
+ - [ ] I'd like to have my color theme be variables in case i want to change it i don't have to manually change it everywhere 
+- [ ] To have check boxes for each item so that users can check stuff off (it wouldn't disappear just become checked)
+- [ ] id like for the svg to also change color when the anchor is hovered over
+- [ ] a lot of the fixed size things, liek the flip cards and the list of items to bring doent scale well 
+
+ Things that I feel like are going to be hard
+ - [ ] Eventually I'd like to be able to do the shape masks like the Salt in our Hair blog
+ - [ ] I want the little **interactive world map**,
+    - [ ]  The interactive world map could be a map of Tanzania separated by region, each region could be highlighted.  
+    - [ ] I think I would have to make my own SVG of Tanzania + its regions (i doubt it already exists)
+        - [ ] OR I don't need to  separate by region, just have a PIN that shows up when you hover...
+ - [ ] a cute like animated backpack would be adorable like you hover and it shows what I packed
+ - for the other places to go:
+    - [ ] show a map where you could hover over all of the spots/pins
+    - or create a gallery of places that instead of overflowing vertical overflows horizontal and you can scrolll
+- [ ] Do the scroll to top in JavaScript  
+
+Mobile stuff (hard?)
+- [ ] Make the flex box better responsive for smaller screens. Maybe ```flex-dir: column``` if screen too small?
+
+Making to dos like this is really annoying, I don't like having to collect them at the end of every day
+
+I mostly just worked on content tonight I just wanted some content to get checked off, I will not be rewriting these tasks for tomoro
