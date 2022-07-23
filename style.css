@@ -333,21 +333,6 @@ li a {
     padding: 0;
 }
 
-/* About Me */
-
-#about-container { 
-    display: flex;
-    width: 90%;
-    align-items: center;
-    margin: auto;
-}
-
-#avatar {
-    width: 10vw;
-    height: 10vw;
-    border-radius: 50%;
-    margin-right: 5%;
-}
 
 
 /* more places to go */
@@ -403,10 +388,47 @@ li a {
     border-color: transparent transparent rgb(230, 217, 198) transparent;
   }
 
-.tooltip-text{
+/* About Me */
 
+#about-container { 
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto;
+
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+
+    flex-direction: row;
 }
 
+#avatar {
+    width: 15vh;
+    height: 15vh;
+    border-radius: 50%;
+}
+
+#about-text {
+    width: 50vh;
+}
+
+/* Footer  */
+
+.icons {
+    height: 3vh;
+    display: inline-block;
+    margin: auto;
+    vertical-align: baseline;
+}
+
+#footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    padding-bottom: 2vh;
+
+}
 
 /* Utility Classes */
 
@@ -454,12 +476,16 @@ li a {
     padding: 1vw;
 }
 
+.no-text-decor {
+    text-decoration: none;
+}
+
 
 /* Goodreads Widget Style */
 
     .gr_custom_container_1657676271 {
     /* customize your Goodreads widget container here*/
-    padding: 10px 0 10px 3vw;
+    padding: 10px 18px 10px 0px;
     background-color: transparent;
     color: #522d11;
     width: 200px;

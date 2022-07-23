@@ -347,8 +347,8 @@ I took a break for a little bit I wasn't really feeling great this past week (I 
 Collection of easy tasks from above
  - [ ] I can't figure out how to get text on the baseline for the top things to do
  - [x] Write the overview paragraphs ...]
- - [ ] add a footer with socials and idk what else is usually in the footer?
-    - [ ] socials, copy write, sitemap, email thingy
+ - [x] add a footer with socials and idk what else is usually in the footer?
+    - [x] socials, copyright, sitemap, email thingy
 - [x] I still need to write the back card content but I don't want to rn
 - [ ] change the REALLy long links for something shorter
 - [x] Also you need to write about things that you needed like more warm clothes, more pants, explain about the detergent situation
@@ -358,7 +358,7 @@ Collection of easy tasks from above
  - [ ] I'd like to have my color theme be variables in case i want to change it i don't have to manually change it everywhere 
 - [ ] To have check boxes for each item so that users can check stuff off (it wouldn't disappear just become checked)
 - [ ] id like for the svg to also change color when the anchor is hovered over
-- [ ] a lot of the fixed size things, like the flip cards and the list of items to bring don't scale well 
+- [ ] a lot of the % sized things, like the flip cards and the list of items to bring don't scale well 
 
  Things that I feel like are going to be hard
  - [ ] Eventually I'd like to be able to do the shape masks like the Salt in our Hair blog
