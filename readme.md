@@ -355,7 +355,7 @@ Collection of easy tasks from above
 - [x] add a favicon :)
 
  Things I don't know how to do but shouldn't be hard
-- [ ] I'd like to have my color theme be variables in case i want to change it i don't have to manually change it everywhere 
+- [x] I'd like to have my color theme be variables in case i want to change it i don't have to manually change it everywhere 
 - [ ] To have check boxes for each item so that users can check stuff off (it wouldn't disappear just become checked)
 - [ ] id like for the svg to also change color when the anchor is hovered over
 - [x] a lot of the % sized things, like the flip cards and the list of items to bring don't scale well 
@@ -374,7 +374,7 @@ Collection of easy tasks from above
 - [ ] Do the scroll to top in JavaScript  
 
 Mobile stuff
-- [ ] make the hero backgroundimage scroll if on mobile (otherwise gets blown out)
+- [ ] make the hero background image scroll if on mobile (otherwise gets blown out)
 - [ ] try and get the text of the top things o do to be more easily readable on mobile
 
 
