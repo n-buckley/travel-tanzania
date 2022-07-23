@@ -75,7 +75,7 @@ but thats a bit much for one screen I think. Oh! idea
 Ok I'm trying to just get a picture of a map to look like a polaroid and I don't know how to get it so that the border proportionally scales with the size of the map. 
 
 - [ ] look up how to make a polaroid in css?
--- I actually decided I dont want to do thi
+-- I actually decided I don't want to do this.
 
 Alright I blocked out the content for the second page. 
 
@@ -182,7 +182,7 @@ I suppose once I finish the content I can go back and spruce it up? I do have th
  - [ ] add a footer with socials and idk what else is usually in the footer?
     - [ ] socials, copy write, sitemap, email thingy
 
- Things I dont know how to do but shouldnt be hard
+ Things I don't know how to do but shouldn't be hard
  - [x] Add a scroll to top button that directs to table of contents
  - [x] Eventually animate the cards to flip
  - [ ] add carousel for each region of cool places
@@ -308,7 +308,7 @@ Then you need a div that contains the content for the front and back ```.flip-ca
 
 Then theres a 180 flip on hover. And an important property is for the front/back content divs `backface-visibility: hidden;` which hides whatever the back for the card is and `position: absolute` or the cards would be stacked on each other like normal html. Other styling doesn't really matter
 
-- [ ] I still need to write the back content but I dont want to rn
+- [ ] I still need to write the back content but I don't want to rn
 
 I'm tiring/getting burnt out with this project. Maybe its because i have no self regulation and I spent 10 hours on VS Code yesterday.
 
@@ -316,21 +316,21 @@ I'm tiring/getting burnt out with this project. Maybe its because i have no self
 
 **Task: add carousel for each region of cool places**
 
-You know waht I started looking up how to do this and I found something a solution, but now that I think about it, I have about 20 places meant to be in one carosel ... 
+You know what I started looking up how to do this and I found something a solution, but now that I think about it, I have about 20 places meant to be in one carousel ... 
 
 i feel like thats not really practical for a user to shuffle through all of them. 
 
-Ok. I thought of something, what if I do something like 'your books' in book reads where theres lots of tiny images and then you can hover over an image to see the title and maybe a very mini descripton... Yeah im going to roll with that.
+Ok. I thought of something, what if I do something like 'your books' in book reads where theres lots of tiny images and then you can hover over an image to see the title and maybe a very mini description... Yeah I'm going to roll with that.
 
 _Task: Mini images with hover description_
 
-Ok hm, I can store the description sin the title as a hack and it would automatically show it to me when I hovers. That would definitley be the easiest way. 
+Ok hm, I can store the description sin the title as a hack and it would automatically show it to me when I hovers. That would definitely be the easiest way. 
 
-Ok.. Yeha im just gping to do that a lot of the solutoins I see make the text replace the image (kind of like the flip cards above, but I want it to hover off to the side (kind of like goodreads does with book covers, if not exactly) which is pretty much what the title/tooltip does 
+Ok.. Yeah I'm just going to do that a lot of the solutions I see make the text replace the image (kind of like the flip cards above, but I want it to hover off to the side (kind of like Goodreads does with book covers, if not exactly) which is pretty much what the title/tooltip does 
 
-Actually I can just make a [tooltip class] (https://www.w3schools.com/css/css_tooltip.asp) instead of using title. This will aslo alow me to add more text.
+Actually I can just make a [tooltip class] (https://www.w3schools.com/css/css_tooltip.asp) instead of using title. This will also allow me to add more text.
 
-- [ ] Oh! I remeber now I wanted to be able to show a map where you could hover over all of the spots !! 
+- [ ] Oh! I remember now I wanted to be able to show a map where you could hover over all of the spots !! 
 
 For now this is ok
 
@@ -342,22 +342,23 @@ Alright that was a lot of content
 
 ### Jul 22, 2022
 
-I took a break for a little bit I wasnt really feeling great this past week (I can't believe its been a week)
+I took a break for a little bit I wasn't really feeling great this past week (I can't believe its been a week)
 
 Collection of easy tasks from above
  - [ ] I can't figure out how to get text on the baseline for the top things to do
  - [x] Write the overview paragraphs ...]
  - [ ] add a footer with socials and idk what else is usually in the footer?
     - [ ] socials, copy write, sitemap, email thingy
-- [x] I still need to write the back card content but I dont want to rn
+- [x] I still need to write the back card content but I don't want to rn
 - [ ] change the REALLy long links for something shorter
 - [x] Also you need to write about things that you needed like more warm clothes, more pants, explain about the detergent situation
+- [ ] add a favicon :)
 
- Things I dont know how to do but shouldnt be hard
+ Things I don't know how to do but shouldn't be hard
  - [ ] I'd like to have my color theme be variables in case i want to change it i don't have to manually change it everywhere 
 - [ ] To have check boxes for each item so that users can check stuff off (it wouldn't disappear just become checked)
 - [ ] id like for the svg to also change color when the anchor is hovered over
-- [ ] a lot of the fixed size things, liek the flip cards and the list of items to bring doent scale well 
+- [ ] a lot of the fixed size things, like the flip cards and the list of items to bring don't scale well 
 
  Things that I feel like are going to be hard
  - [ ] Eventually I'd like to be able to do the shape masks like the Salt in our Hair blog
@@ -368,7 +369,7 @@ Collection of easy tasks from above
  - [ ] a cute like animated backpack would be adorable like you hover and it shows what I packed
  - for the other places to go:
     - [ ] show a map where you could hover over all of the spots/pins
-    - or create a gallery of places that instead of overflowing vertical overflows horizontal and you can scrolll
+    - or create a gallery of places that instead of overflowing vertical overflows horizontal and you can scroll
 - [ ] Do the scroll to top in JavaScript  
 
 Mobile stuff (hard?)
@@ -376,4 +377,8 @@ Mobile stuff (hard?)
 
 Making to dos like this is really annoying, I don't like having to collect them at the end of every day
 
-I mostly just worked on content tonight I just wanted some content to get checked off, I will not be rewriting these tasks for tomoro
+I mostly just worked on content tonight I just wanted some content to get checked off, I will not be rewriting these tasks for tomorrow
+
+### Jul 23, 2022
+
+Just fixed a lot of spelling errors woo!
