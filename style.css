@@ -1,3 +1,12 @@
+:root {
+    --main: papayawhip ;
+    --secondary: #B2AC88; 
+    --accent: rgb(230, 217, 198);
+    --hover: darkolivegreen ;
+    --text: rgb(82, 45, 17);
+    --text-accent: rgb(201, 96, 16); 
+
+}
 * {
     scroll-behavior: smooth;
     scroll-padding-top: 5%;
@@ -7,10 +16,10 @@
 
 body {
     margin: 0px;
-    background: papayawhip;
+    background: var(--main);
 
     font-family: p22-underground, sans-serif;
-    color: rgb(82, 45, 17);
+    color: var(--text);
     font-size: inherit;
 }
 
@@ -29,7 +38,7 @@ a {
 }
 
 a:hover {
-    color: darkolivegreen;
+    color: var(--hover);
 }
 
 h1, h2, h3 {
@@ -46,8 +55,9 @@ h1, h2, h3 {
     right: 30px; 
     border: none; 
     outline: none; 
-    color:  rgb(201, 96, 16); 
-    background-color: rgb(230, 217, 198, .3);
+    color:  var(--text-accent);
+    background-color: var(--accent);
+    opacity: .4;
     cursor: pointer; /* Add a mouse pointer on hover */
     padding: 15px; 
     border-radius: 10px; 
@@ -55,8 +65,8 @@ h1, h2, h3 {
   }
   
   #scroll-top:hover {
-    background-color: #B2AC88; /* Add a dark-grey background on hover */
-    color: papayawhip;
+    background-color: var(--secondary);
+    color: var(--main);
   }
 
 /* Hero */
@@ -77,8 +87,8 @@ h1, h2, h3 {
 #hero-title {
     font-family: droid-serif, serif;
     font-weight: 700;
-    color: papayawhip;
-    text-shadow: 0 0 12px rgb(82, 45, 17);
+    color: var(--main);
+    text-shadow: 0 0 12px var(--text);
 }
 
 
@@ -107,7 +117,7 @@ h1, h2, h3 {
 
 #ov-itinerary {
     width: 70%;
-    background: #B2AC88;
+    background: var(--secondary);
     margin: auto;
 
     line-height: 15px;
@@ -133,7 +143,7 @@ h1, h2, h3 {
 #ov-regions {
     width:50%;
     margin-right: auto;
-    background-color: rgb(230, 217, 198);
+    background-color: var(--accent);
     border-radius:  5%;
 
     text-decoration: none;
@@ -163,7 +173,7 @@ ul {
 
 li { 
     padding: 3%;
-    border-bottom:  2px solid papayawhip;
+    border-bottom:  2px solid var(--main);
     
 }
 
@@ -178,7 +188,7 @@ li a {
     width: 90%;
     margin:auto;
     padding-bottom: 3vw;
-    border-bottom: 5px solid rgb(230, 217, 198);
+    border-bottom: 5px solid var(--accent);
 }
 
 .flip-container {
@@ -186,9 +196,9 @@ li a {
     margin:auto;
     height: 21vw;
 
-    color: papayawhip;
+    color: var(--main);
     text-align: center;
-    text-shadow: 0 0 10px rgb(82, 45, 17);
+    text-shadow: 0 0 10px var(--text);
     font-size: 1.5vw;
 
     object-fit: cover;
@@ -226,15 +236,15 @@ li a {
 
 /* Style the front side (fallback if image is missing) */
 .flip-card-front {
-    background-color: rgb(230, 217, 198);
+    background-color: var(--accent);
 }
   
 .flip-card-back {
-    background-color: #B2AC88;
+    background-color: var(--secondary);
     transform: rotateY(180deg);
     min-height: fit-content;
 
-    color:rgb(82, 45, 17);
+    color: var(--text);
     font-weight:  300;
     text-shadow: none;
     font-size: 1.05vw;
@@ -321,7 +331,7 @@ li a {
 
     max-height: 25vw;
 
-    background-color: rgb(230, 217, 198);
+    background-color: var(--accent);
     border-radius: 1vw;
     padding: 0.5vw;
     margin: 1vw;
@@ -363,7 +373,7 @@ li a {
     visibility: hidden;
     -webkit-visibility: hidden;
     width: 150%;
-    background-color: rgb(230, 217, 198);
+    background-color: var(--accent);
     padding: 5px 0;
     border-radius: 6px;
     
@@ -385,7 +395,7 @@ li a {
     margin-top: -5px;
     border-width: 5px;
     border-style: solid;
-    border-color: transparent transparent rgb(230, 217, 198) transparent;
+    border-color: transparent transparent var(--accent) transparent;
   }
 
 /* About Me */
@@ -465,7 +475,7 @@ li a {
 }
 
 .swahili {
-    color:rgb(201, 96, 16);
+    color: var(--text-accent);
 }
 
 .padding-top10 {
@@ -487,7 +497,7 @@ li a {
     /* customize your Goodreads widget container here*/
     padding: 10px 18px 10px 0px;
     background-color: transparent;
-    color: #522d11;
+    color: var(--text);
     width: 200px;
     }
     .gr_custom_header_1657676271 {

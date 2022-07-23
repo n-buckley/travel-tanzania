@@ -373,8 +373,10 @@ Collection of easy tasks from above
     - or create a gallery of places that instead of overflowing vertical overflows horizontal and you can scroll
 - [ ] Do the scroll to top in JavaScript  
 
-Mobile stuff (hard?)
-- [ ] Make the flex box better responsive for smaller screens. Maybe ```flex-dir: column``` if screen too small?
+Mobile stuff
+- [ ] make the hero backgroundimage scroll if on mobile (otherwise gets blown out)
+- [ ] try and get the text of the top things o do to be more easily readable on mobile
+
 
 Making to dos like this is really annoying, I don't like having to collect them at the end of every day
 
