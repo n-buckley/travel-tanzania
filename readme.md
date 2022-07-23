@@ -358,7 +358,8 @@ Collection of easy tasks from above
 - [ ] I'd like to have my color theme be variables in case i want to change it i don't have to manually change it everywhere 
 - [ ] To have check boxes for each item so that users can check stuff off (it wouldn't disappear just become checked)
 - [ ] id like for the svg to also change color when the anchor is hovered over
-- [ ] a lot of the % sized things, like the flip cards and the list of items to bring don't scale well 
+- [x] a lot of the % sized things, like the flip cards and the list of items to bring don't scale well 
+-- the scroll boxes actually look fine on mobile after i fixed my spelling mistake and everything I've tried for the flip cards hasnt worked. ill try again when i specifically target mobile design
 
  Things that I feel like are going to be hard
  - [ ] Eventually I'd like to be able to do the shape masks like the Salt in our Hair blog
