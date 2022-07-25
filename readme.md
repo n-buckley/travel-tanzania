@@ -385,3 +385,20 @@ I mostly just worked on content tonight I just wanted some content to get checke
 ### Jul 23, 2022
 
 Just fixed a lot of spelling errors woo!
+
+Also did the color variables and favicon
+
+### Jul 25, 2022
+
+More content updates (realized I hadn't finished while reading lol)
+
+I feel like this project at least all the HTML/CSS stuff is done. Theres obviously things I still want to do to improve the site, but it's "done" like, I'm happy enough with it. 
+
+Things I definitely want to work on at some point:
+- [ ] fixing mobile design
+- [ ] interactive HTML/CSS, I think this also involves JavaScript 
+    - [ ] checkboxes for packed items
+- [ ] Research things that maybe typically done in JavaScript
+    - [ ] scrolling
+- [ ] Want to research what is standard for #id anchors
+
