@@ -44,6 +44,10 @@ Everyday that I work on this, I'm going to document my **goal for the day, anyth
 
 Update: I've realized that I had already named the repo travel-tanzania so I suppose I've made my choice
 
+## Project Reflections
+
+
+
 ## day by day
 
 ### Jul 11, 2022
@@ -402,3 +406,9 @@ Things I definitely want to work on at some point:
     - [ ] scrolling
 - [ ] Want to research what is standard for #id anchors
 
+
+### Mar 23, 2024
+
+Hi I'm back I still want to learn how to do the above leftover things but for now, I'm just fixing some broken images links :/ 
+
+Interesting thing I noticed, I had a tooltip over all the images to credit the images to their photographer, but that tool tip does not work on Firefox
